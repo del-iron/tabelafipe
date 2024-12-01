@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela FIPE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Consulta Tabela FIPE</h1>
+    </header>
+
+    <main>
+        <div class="search-box">
+            <label for="marca">Marca:</label>
+            <input type="text" id="marca" placeholder="Digite a marca do veículo">
+
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" placeholder="Digite o modelo do veículo">
+
+            <label for="ano">Ano:</label>
+            <input type="number" id="ano" placeholder="Digite o ano do veículo">
+
+            <button id="buscar-btn">Buscar</button>
+        </div>
+
+        <div id="resultado">
+            <table id="tabela-fipe">
+                <thead>
+                    <tr>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Ano</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Resultado será preenchido aqui -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>Consulta à Tabela FIPE • Desenvolvido por [Seu Nome]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
